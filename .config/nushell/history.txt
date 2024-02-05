@@ -1,0 +1,1818 @@
+ps
+ls 
+ls | get size | math size
+ls | get size | math sum
+ls | sort-by size | enumerate
+let my_var = "Hello, world"
+echo $may_var
+echo $my_var
+exit
+sudo 
+sudo reboot
+sudo poweroff
+btop
+btop --utf-force
+firefox
+exit
+startx
+sudo chsh -s /bin/fish mark
+su 
+kill feh
+sudo reboot
+ls
+exa
+bat
+bat second.cpp
+cat second.cpp
+sudo xbps-install -Su sway
+man -k sway
+man sway
+mkdir .config/sway
+nvim .config/sway/config
+sudo cp /etc/sway/config ~/.config/sway/config
+nvim .config/sway/config
+kill sway
+nvim .config/sway/config
+/projects/rust_tries/jabawm/
+cargo run
+..
+eww/
+ls -a
+ls -a target/
+cargo install 
+cargo build -- release --no-default-features --features=wayland
+cargo build --release --no-default-features --features=wayland
+..
+./pythukhon/
+source ./bin/activate
+cargo
+..
+btop 
+ls
+lsblk
+lsblk | NAME
+lsblk | where NAME
+ls | where name
+ls | where NAME
+ls | where name "a*"
+startx
+bat /usr/share/X11/xkb/rules/base.lts
+http https://github.com/rxyhn/tokyo/tree/main/config/eww/bar
+http help https://github.com/rxyhn/tokyo/tree/main/config/eww/bar
+http help
+http --help
+http get https://github.com/rxyhn/tokyo/tree/main/config/eww/bar
+git --help
+git clone https://github.com/rxyhn/tokyo/tree/main && cp -r main/config/eww/bar/* ~/.config/eww
+git clone https://github.com/rxyhn/tokyo/tree/main ; cp -r main/config/eww/bar/* ~/.config/eww
+git clone https://github.com/rxyhn/tokyo/tree/main aboba ; cp -r aboba/config/eww/bar/* ~/.config/eww
+git clone https://github.com/rxyhn/tokyo/tree aboba ; cp -r aboba/config/eww/bar/* ~/.config/eww
+git clone https://github.com/rxyhn/tokyo aboba ; cp -r aboba/config/eww/bar/* ~/.config/eww
+ls .config/eww
+rm -rf aboba/
+ls
+ls -la
+eww 
+$env | reject config | transpose key val | each {|r| echo $"$env.($r.key) = '($r.val)'"} | str join (char nl)
+echo "aboba" >> aboba.txt
+echo "aboba" | aboba.txt
+echo "aboba" | write aboba.txt
+ls | length
+ls -la | length
+$env | reject config | transpose key val | each {|r| echo $"$env.($r.key) = '($r.val)'"} | str join (char nl) | save env.nu
+open env.nu
+$nu.env-path
+open .config/nushell/env.nu
+"hellp" | append env.nu
+open env.nu
+save --help
+"hellp" | save --append env.nu
+open env.nu
+nvim .config/nushell/env.nu
+open env.nu | save --append .config/nushell/env.nu
+nvim .config/nushell/env.nu
+nvim .config/nvim/lua/lazy_setup/plugins.lua
+nvim
+nvum .config/nushell/env.nu
+nvim .config/nushell/env.nu
+nvim .config/nvim/lua/lazy_setup/plugins.lua
+nvim .config/nushell/env.nu
+sudo chsh -s /usr/bin/nu mark
+nvim .config/nushell/env.nu
+nu 
+du
+exit
+Hyprland
+su fish
+fish
+nvim .config/nushell/env.nu
+su root
+eixt
+exit
+ls
+ls -la | length
+nvim
+bacon 
+/projects/rust_tries/
+..
+/projects
+ls
+ls | find neorg
+git clone https://github.com/MohMaGen/neorg neorg-fork
+./neorg-fork/
+ls -a
+git status
+nvim
+test.lua
+nvim .config/nvim/lua/plugins/neorg.lua
+nvim test.lua
+nvim
+nvim math/
+./math
+mkdir exam12012023
+./exam12012023/
+nvim theory.typ
+nvim ~/.config/nvim/lua/settings.lua
+nvim .nvimrc
+nvim
+nvim .nvimrc
+ltex-ls
+xbps-query -Rs ltex
+ls -a
+java
+xbps-query -Rs java
+sudo xbps-install -Su jre
+xbps-query -Rs jre
+sudo xbps-install -Su openjdk21-jre
+java
+sudo xbps-install -Su openjdk21
+xbps-query -Rs jre
+xbps-query -Rs java
+xbps-query -Rs openjdk
+xbps-query -Rs openjdk21-doc openjdk21-jmods openjdk21-src opnejdk21-static-libs
+sudo xbps-install -Su openjdk21-doc openjdk21-jmods openjdk21-src opnejdk21-static-libs
+sudo xbps-install -Su openjdk21-doc openjdk21-jmods openjdk21-src openjdk21-static-libs
+java
+~
+java
+.local/pkgs/
+ls -la
+rm -rf ltex-ls-16.0.0/
+./void-packages/
+ls -la srcpkgs/
+ls -la srcpkgs/ 
+ls -la srcpkgs/ | name
+ls -la srcpkgs/ | where name
+ls -la srcpkgs/ | get name
+ls -la srcpkgs/ | get name | find l
+ls -la srcpkgs/ | find l
+ls -la srcpkgs/ | find lte
+ls -la srcpkgs/ | find ltex
+..
+git clone https://github.com/valentjn/ltex-ls
+./ltex-ls/
+ls -a
+make
+xbps-query -Rs kotlin
+jadetex 
+java
+jdk
+gdk
+sudo xbps-install -Su openjdk17-jre
+java
+17java
+java
+sudo reboot
+Hyprland 
+jadetex 
+java
+ls -la
+ls -la 
+ls -la | find bin
+ls -a
+java
+ls /opt
+sudo xbps-remove -R openjdk21
+sudo xbps-remove -R openjdk21-jmods
+sudo xbps-remove -R openjdk21
+sudo xbps-remove -R openjdk21-src
+xbps-query -s opwnjdk
+xbps-query -s opwnjdk21
+xbps-query -s openjdk21
+sudo xbps-remove -R openjdk21-doc
+sudo xbps-remove -R openjdk21-jre
+sudo xbps-remove -R openjdk21-static-libs
+sudo xbps-remove -R openjdk17-jre
+xbps-query -s openjdk17
+xbps-query -s openjdk
+rpm
+jdk
+sudo xbps-install -Su openjdk17-jre
+sudo xbps-install -Su openjdk17
+jdk
+openssl 
+sudo xbps-install -Su openjdk
+java
+sudo xbps-remove -R openjdk
+sudo xbps-remove -R openjdk-jre
+sudo xbps-remove -R openjdk17-jre
+sudo xbps-remove -R openjdk17
+sudo xbps-remove -R openjdk17-jre
+xbps-query -s openjdk
+sudo xbps-install -Suqy openjdk17 openjdk17-jre
+sudo xbps-install -Suvy openjdk17 openjdk17-jre
+sudo xbps-remove -R openjdk17-jre openjdk17
+xbps-query -s openjdk
+xbps-install -help
+xbps-alternatives --help
+xbps-alternatives -l
+sudo xbps-install -Su openjdk17
+sudo xbps-install -Su openjdk17-jre
+java
+xbps-alternatives java
+xbps-alternatives -g java
+xbps-alternatives -s openjdk17-jre
+xbps-alternatives -l | grep java
+sudo xbps-install -Su openjdk21-jre
+xbps-alternatives -l | grep java
+xbps-alternatives -l 
+~/.local/pkgs/ltex-ls/
+java --help
+nvim 
+xbps-query -Rs maven
+sudo xbps-install -Su apache-maven
+mvn
+mvn package
+mvn --help
+sudo npm install npm@latest -g
+git clone https://github.com/partrita/monkeytype
+./monkeytype/
+npm install 
+nmn
+npm install .
+exa
+node 
+mnm
+npm link .
+sudo npm link
+mnm
+~
+convert --help
+xbps-query
+xbps-query -s *
+xbps-query -s "*"
+xbps-query -s color
+pastel e0def4
+pastel "#e0def4"
+pastel -help
+pastel color "#191724"
+nvim .config/zathura/zathurarc
+/projects/university/ls -a
+ls 
+/projects/university/
+ls -a
+mkdir math
+mkdir math/exam12012024
+./math/exam12012024/
+nvim theory.typ
+ls
+nvim ~/.config/hypr/hyprland.conf
+nvim
+q:q
+nvim ~/.config/hypr/hyprland.conf
+xbps-query -Rs fcitx
+xbps-query -Rs fcitx5
+xbps-query -Rs fcitx50wayland
+xbps-query -Rs fcitx5-wayland
+sudo xbps-install -Su fcitx5
+fcitx5-remote -r
+nvim 
+nvim .config/hypr/hyprland.conf
+sudo xbps-install -Su fcitx5-gtk fcitx5-qt
+xbps-query -Rs fcitx5
+sudo xbps-install -Su fcitx5-chinese-addons
+nvim .config/nushell/env.nu
+sudo reboot
+xbps-query -Rs ibus
+sudo xbps-install -Su ibus ibus-libpinyin
+xbps-query -Rs ibus
+sudo xbps-install -Su ibus ibus-sumpinyin
+sudo xbps-install -Su ibus ibus-sunpinyin
+nvim .config/nushell/env.nu
+ibus-daemon -x -d 
+sudo nvim /etc/environment
+sudo xbps-install -Su ibus-emoji
+xbps-query -Rs ibus
+ibus list-engine
+ibus watch
+nihao
+ibus emoji
+kill ibus
+btop
+sudo reboot
+ibus emoji
+ibus --help
+ibus list-engine
+ibus --help
+ibus list-engine | less
+ibus --help
+ibus engine libpinyin
+ibus im-module
+ibus --help
+ibus list-engine 
+ibus list-engine | less
+ibus --help
+sudo reboot
+xbps-query -Rs ibus
+ibus-setup 
+nvim .config/hypr/hyprland.conf
+nvim /usr/share/X11/xkb/rules/base.lst
+nvim .config/hypr/hyprland.conf
+ibus-setup 
+nvim .config/hypr/hyprland.conf
+sudo nvim /etc/environment
+sudo reboot
+ibus-setup 
+btop
+sudo nvim /etc/environment
+sudo reboot
+nvim .config/hypr/hyprland.conf
+Hyprland 
+fcitx5-remote -r
+nvim .config/hypr/hyprland.conf
+fcitx5-remote 
+fcitx5-remote  --help
+man fcitx5
+man fcitx5-remote
+sudo sv dbus status
+sudo sv status dbus 
+fcitx5-remote  --help
+dbus-launch fcitx5
+sudo dmesg -n 1
+nvim .config/fcitx5/conf/cached_layouts
+pkill fcitx5
+btop
+sudo nvim /etc/environment
+btop
+sudo reboot
+sudo dmesg -n 1
+/projects/university/math/exam12012024/theory.typ
+/projects/university/math/exam12012024/
+nvim 
+.local/pkgs/ltex-ls/
+nvim
+mvn package
+..
+rm -rf ltex-ls/
+cp -r ~/Downloads/ltex-ls-16.0.0/ ./ltex-ls
+./ltex-ls/
+mvn package
+trans -t ru -f en  "arbitrary location on your computer."
+trans -t ru -f en  "arbitrary"
+/projects/
+mkdir neorg/languages
+mv neorg/english/ neorg/languages/english
+nvim ~/.config/nvim/lua/plugins/neorg.lua
+nvim ~/.config/hypr/hyprland.conf
+trans -t ru -f en  "countenance"
+nvim
+sudo xbps-install -Su fcitx5-gtk fcitx5-qt
+nvim ~/.config/nushell/env.nu
+sudo nvim /etc/environment
+sudo xbps-query -Rs fcitx
+sudo xbps-query -Rs fcitx5
+sudo xbps-query -Rs fcitx5-configtool 
+sudo xbps-install -Su fcitx5-configtool 
+Hyprland 
+xbps-query -Rs xwayland
+ls -la /etc/sv
+ls -a /etc/sv
+sh -c "export ABEME=biba"
+$env.ABEME
+sudo xbps-install -Su fcitx-im
+xbps-query -Rs fcitx5
+xbps-query -Rs fcitx5-gtk
+fcitx5-remote  -r
+fcitx5-remote -r
+ibus-daemon -xd 
+pipx pyprland
+pipx install pyprland
+pypr
+nvim ~/.config/hypr/hyprland.conf
+pypr
+nvim ~/.config/hypr/pyprland.json
+pypr
+nvim ~/.config/hypr/pyprland.json
+cat .config/hypr/pyprland.json
+open .config/hypr/pyprland.json
+pypr
+nvim ~/.config/hypr/pyprland.json
+pypr
+Hyprland 
+kitty --class scratchpad
+trans -t ru -f en  "countenance"
+kitty --class scratchpad
+kitty
+xbps-query -Rs porta
+xbps-query -Rs portal
+sudo xbps-insatll -Su xdg-descktop-porta-gtk xdg-descktop-portal-kde xdg-descktop-portal-wlr xdg-descktop-portal-lxqt
+sudo xbps-install -Su xdg-descktop-porta-gtk xdg-descktop-portal-kde xdg-descktop-portal-wlr xdg-descktop-portal-lxqt
+sudo xbps-install -Su xdg-descktop-portal-gtk xdg-descktop-portal-kde xdg-descktop-portal-wlr xdg-descktop-portal-lxqt
+sudo xbps-install -Su xdg-descktop-portal-kde xdg-descktop-portal-wlr xdg-descktop-portal-lxqt
+sudo xbps-install -Su xdg-desktop-portal
+sudo xbps-install -Su xdg-desktop-portal-gtk
+sudo xbps-install -Su xdg-desktop-portal-wlr
+sudo xbps-install -Su xdg-desktop-portal-lqt
+sudo xbps-install -Su xdg-desktop-portal-lxqt
+ls -a /etc/sv
+ls -a /etc/sv 
+ls -a /etc/sv | find portal
+fcitx5-remote -r
+nvim ~/.config/nushell/config.nu
+Hyprland 
+fcitx5-remote -r
+xbps-query -Rs import
+xbps-query -Rs imput
+neoftech
+neofetch
+$env.XMODIFIERS
+open .config/nushell/env.nu
+nvim ~/.config/nushell/env.nu
+source 
+source .config/nushell/env.nu
+$env.XMODIFIERS
+fcitx5-remote -r
+xbps-query -Rs fcitx
+trans -t ru -f en "brief"
+nvim
+ibus-daemon -xd 
+ibus-setup 
+sudo nvim /etc/environment
+sudo reboot
+ibus-daemon -xd 
+sudo nvim /etc/environment
+sudo reboot
+ibus-daemon -xd 
+nvim .profile
+pkill ibus
+ibus-daemon -xim &
+ibus-daemon --xim &
+sudo xbps-install -Su ibus-table
+xbps-query -Rs ibus
+ibus-daemon --xim -xd
+nvim .config/hypr/hyprland.conf
+ibus-daemon -x -d
+pkill ibus
+ibus-daemon -x -d
+xbps-query -Rs ibus
+ibus-daemon -x -d
+ibus-setup 
+sudo nvim /etc/environment
+sudo reboot
+ibus-daemon -x -d
+ibus --help
+ibus exit
+ibus restart
+ibus-daemon -x -d
+ibus restart
+ibus im-module
+ibus emoji
+pkill ibus
+nvim .config/hypr/hyprland.conf
+ibus-daemon -x -d
+nvim .config/hypr/hyprland.conf
+Hyprland 
+ibus restart
+nvim .config/hypr/hyprland.conf
+sudo nvim /etc/environment
+nvim .config/nushell/env.nu
+Hyprland 
+sudo reboot
+ibus-setup 
+nvim .config/kitty/kitty.conf
+xbps-query -Rs chines
+xbps-query -Rs chines | grep font
+nvim .config/hypr/hyprland.conf
+bat /projects/neorg/languages/chinese/words.norg
+bat /projects/neorg/languages/chinese/index.norg
+xbps-query -Rs noto
+sudo xbps-install -Su noto-fonts-cjk noto-fonts-emoji not-fonts-ttf
+sudo xbps-install -Su noto-fonts-cjk noto-fonts-emoji noto-fonts-ttf
+ibus-setup 
+xbps-query -Rs sans
+.fonts/
+ls -a
+..
+fc-cache 
+ibus-setup 
+fc-cache -fv
+ibus-setup 
+unzip ~/Downloads/ZCOOL_QingKe_HuangYou.zip
+unzip --help
+unzip ~/Downloads/ZCOOL_QingKe_HuangYou.zip ZCOOL
+fc-cache -fv
+ibus-setup 
+ibus restart
+sudo poweroff
+ibus-setup 
+/projects/university/math/exam12012024/
+termdown 30m
+ibus-setup 
+ibus replit.token
+ibus restart
+sudo nvim /etc/environment
+sudo reboot
+sh -c "GLTW_IM_MODULE=ibus kitty"
+/projects/university/math/exam12012024/
+termdown 30m
+/projects/university/math/exam12012024/
+nvim .config/hypr/hyprland.conf
+nvim
+Hyprland 
+sudo reboot
+ibus-setup 
+ibus restart
+ibus-setup 
+ibus restart
+ibus-setup 
+xbps-query -Rs ipa-x
+xbps-query -Rs ibus
+xbps-query -Rs ibus 
+xbps-query -Rs ibus | grep sampa
+xbps-query -Rs ibus | grep iipa
+xbps-query -Rs ibus | grep ipa
+ibus-setup 
+ibus list-engine | less
+xbps-query -Rs ibus 
+xbps-query -Rs ibus | table
+xbps-query -Rs ibus | grep table
+xbps-query -Rs ibus | grep others
+ibus-table
+table
+xbps-query -Rs ibus 
+xbps-query -Rs ibus | grep xhuyin
+xbps-query -Rs ibus | grep zhuyin
+xbps-query -Rs ibus | grep Zhuyin
+ibus-setup 
+ibus restart
+ibus replit.token
+ibus restart
+ibus-setup 
+sudo nvim /etc/environment
+sudo reboot
+nvim .config/hypr/hyprland.conf
+Hyprland 
+nvim .config/hypr/hyprland.conf
+nvim 
+.local/pkgs
+git clone https://github.com/fourdollars/ibus-zhuyin.git && cd ibus-zhuyin
+git clone https://github.com/fourdollars/ibus-zhuyin.git ; cd ibus-zhuyin
+sh ./autogen.sh
+nvim ./autogen.sh
+make
+./autogen.sh
+./configure.ac
+xbps-query autoreconf
+./configure.ac
+./autogen.sh
+xbps-query autoconf
+xbps-query auto
+xbps-query -Rs autoconf
+sudo xbps-install -Su autoconf
+./configure.ac
+./autogen.sh
+xbps-query -Rs autoconf
+sudo xbps-install -Su perl-Config-AutoConf
+sudo xbps-install -Su autoconf213
+sudo xbps-install -Su autoconf-archive
+./autogen.sh
+sh ./autogen.sh
+sudo reboot
+.local/pkgs
+./ibus-zhuyin/
+./autogen.sh
+sudo ./autogen.sh
+xbps-query -Rs autoreconf
+xbps-query -Rs conf
+xbps-query -Rs reconf
+xbps-query -Rs avro
+sudo xbps-install -Su ibus-avro
+xbps-query -Rs zhu
+sudo xbps-install -Su libzhuyin
+ibus-setup
+ibus restart
+ibus-setup 
+xbps-query -Rs zhuyin
+ibus-setup
+sudo reboot
+ibus-setup
+ibus restart
+ibus-setup
+ibus restart
+ibus-setup
+ibus restart
+fc-cache -fv
+ibus-setup
+ibus restart
+xbps-query chrom
+sudo nvim /etc/environment
+sudo reboot
+/projects/university/math/exam12012024/
+nvim theory.typ
+typst-lsp
+cargo install typst-lsp
+source ~/.config/nushell/env.nu
+nvim ~/.config/nushell/env.nu
+Hyprland
+/projects/university/math/exam12012024/
+ibus-setup
+termdown 30m
+nvim theory.typ
+ibus-setup 
+ibus restart
+ibus-setup 
+nvim
+ibus-setup 
+ibus restart
+ibus-setup 
+ibus restart
+ibus-setup 
+ibus restart
+ibus-setup 
+ibus-setup
+Hyprland
+sudo dmesg -n 1
+nvim ~/.config/hypr/pyprland.json
+ibus-setup
+nvim 
+nvim ~/.config/nvim/lua/plugins/rose_pine.lua
+ibus-setup
+ibus-retart
+ibus restart
+ibus-setup 
+termdown 30m
+trans -t ru -f ch "奔马"
+trans -t ru -f zh "奔马"
+trans -t ru -f zh "我喜欢奔马"
+trans -t us -f zh "我喜欢奔马"
+trans -t zh -f en "this"
+trans -t us -f zh "这"
+trans -t us -f zh "程序设计语言"
+trans -t us -f zh "程序"
+trans -t us -f zh "设计"
+trans -t us -f zh "语言"
+trans -t us -f zh "图书的源码"
+trans -t us -f zh "图书"
+trans -t zh -f en "learn"
+trans -t us -f zh "学习“<\n>”<\n>"
+trans -t us -f zh "学习"
+trans -t us -f zh "我喜欢学习称呼设计语言"
+trans -t us -f zh "我喜欢学习程序设计语言"
+trans -t zh -f en "know"
+trans -t us -f zh "知道"
+trans -t zh -f en "a lot"
+trans -t us -f zh "很多"
+trans -t us -f zh "我知道很多程序设计语言。"
+trans -t us -f zh "我喜欢很多生须设计语言图书。"
+trans -t us -f zh "我喜欢很多程序设计语言图书。"
+trans -t zh -f en "about"
+trans -t us -f zh "关于"
+trans -t us -f zh "我喜欢很多图书关于程序设计语言。"
+trans -t us -f zh "我喜欢图书关于程序设计语言。"
+trans -t us -f zh "我是蟾蜍"
+/projects/university/math/exam12012024/
+trans -t zh -f en "new"
+nvim main.cpp
+/projects/
+c_cpp_study/
+nvim main.cpp
+clang -o main main.cpp -lsdtc++
+nvim main.cpp
+clang -o main main.cpp -lstdc++
+./main
+/projects/c_cpp_study/
+clang -o main main.cpp -lstdc++
+./main
+exa
+clang -o main main.cpp -lstdc++
+exa
+./main
+clang -o main main.cpp -g -lstdc++
+./main
+gdb main
+lldb main
+clang -o main main.cpp -g -lstdc++
+./main
+clang -o main main.cpp -g -lstdc++
+./main
+clang -o main main.cpp -g -lstdc++
+./main
+clang -o main main.cpp -g -lstdc++
+./main
+clang -o main main.cpp -g -lstdc++
+./main
+termdown 30m
+clang -o main main.cpp -g -lstdc++
+termdown 30m
+clang -o main main.cpp -g -lstdc++
+./main
+clang -o main main.cpp -g -lstdc++
+./main
+clang -o main main.cpp -g -lstdc++
+./main
+clang -o main main.cpp -g -lstdc++
+./main
+clang -o main main.cpp -g -lstdc++
+./main
+clang -o main main.cpp -g -lstdc++
+./main
+clang -o main main.cpp -g -lstdc++
+./main
+clang -o main main.cpp -g -lstdc++
+./main
+clang -o main main.cpp -g -lstdc++
+./main
+clang -o main second.cpp -g -lstdc++
+./main
+firefox --version
+xbps-query -s portal
+nvim /etc/environment
+xbps-query -Rs libwebrtc
+xbps-query -Rs webrtc
+sudo xbps-install -Su libdatachannel spreed-webrtc
+ls /etc/sv/
+sudo reboot
+nvim /etc/environment
+sudo nvim /etc/environment
+sudo sv status pipewire
+ls /etc/sv/
+ls /var/service/
+ln -sf /etc/sv/speed-wbrtc-server /var/service/
+sudo ln -sf /etc/sv/speed-wbrtc-server /var/service/
+sudo nvim /etc/environment
+sudo rebot
+sudo reboot
+sudo nvim /etc/environment
+sudo reboot
+$env.DISPLAY
+sudo reboot
+xbps-query -Rs wireplu
+sudo xbps-install -Su wireplumber-elogind
+ls /var/service/
+xbps-query -Rs portal
+xbps-query -s xdg-descktop-portal
+xbps-query -s portal
+sudo xbps-remove -R xdg-desktop-portal-lxqt xdg-desktop-portal-wlr xdg-desktop-portal-lxqt
+xbps-query -s portal
+sudo xbps-remove -R libportal pibprtal-gtk4
+sudo xbps-remove -R libportal libprtal-gtk4
+sudo xbps-remove -R libportal libportal-gtk4
+dbus-update-activation-environment --help
+Hyprland 
+exit
+sudo sv status pipewire
+ls /etc/sv/ | gerp pipe
+ls /etc/sv/ | grep pipe
+ls /etc/sv/ | find pipe
+ls /etc/sv/ | find wire
+ls /etc/sv/ | find w
+ls /etc/sv/ | find plum
+pipewire 
+wireplumber 
+Hyprland 
+/projects/university/math/exam12012024/
+pkill pypr
+nvim ~/.config/hypr/pyprland.json
+/projects/c_cpp_study/leet_code/
+/projects/c_cpp_study/leet_code/
+..
+clang -o main ./graph.cpp -g -lstdc++
+./main
+clang -o main ./graph.cpp -g -lstdc++
+clang -o main ./graph.cpp -g -lstdc++ --std=c++2b
+./main
+clang -o main ./graph.cpp -g -lstdc++ --std=c++2b
+./main
+clang -o main ./graph.cpp -g -lstdc++ --std=c++2b
+./main
+clang -o main ./graph.cpp -g -lstdc++ --std=c++2b
+./main
+clang -o main ./graph.cpp -g -lstdc++ --std=c++2b
+./main
+clang -o main ./graph.cpp -g -lstdc++ --std=c++2b
+./main
+clang -o main ./graph.cpp -g -lstdc++ --std=c++2b
+./main
+clang -o main ./graph.cpp -g -lstdc++ --std=c++2b
+./main
+clang -o main ./graph.cpp -g -lstdc++ --std=c++2b
+./main
+clang -o main ./graph.cpp -g -lstdc++ --std=c++2b
+./main
+clang -o main ./graph.cpp -g -lstdc++ --std=c++2b
+./main
+clang -o main ./graph.cpp -g -lstdc++ --std=c++2b
+./main
+clang -o main ./graph.cpp -g -lstdc++ --std=c++2b
+./main
+clang -o main ./graph.cpp -g -lstdc++ --std=c++2b
+./main
+./leet_code/
+clang -v
+nvim ~/.config/nvim/lua/plugins/lsp.lua
+nvim 
+nvim longest_subarray_of_first_after_deleting_one_element.cpp
+nvim ~/.config/nvim/lua/plugins/lsp.lua
+clangd --std=c++2b
+clangd -j=c++2b
+clangd --help
+nvim longest_subarray_of_first_after_deleting_one_element.cpp
+nvim ~/.config/nvim/lua/plugins/lsp.lua
+clangd --std=c++2b -lstdc++ -o main ./longest_subarray_of_first_after_deleting_one_element.cpp
+clangd -lstdc++ -o main ./longest_subarray_of_first_after_deleting_one_element.cpp
+clang --std=c++2b -lstdc++ -o main ./longest_subarray_of_first_after_deleting_one_element.cpp
+./main
+clang --std=c++2b -lstdc++ -o main ./longest_subarray_of_first_after_deleting_one_element.cpp
+./main
+clang --std=c++2b -lstdc++ -o main ./longest_subarray_of_first_after_deleting_one_element.cpp
+./main
+clang --std=c++2b -lstdc++ -o main ./longest_subarray_of_first_after_deleting_one_element.cpp
+./main
+clang --std=c++2b -lstdc++ -o main ./longest_subarray_of_first_after_deleting_one_element.cpp
+./main
+clang --std=c++2b -lstdc++ -o main ./longest_subarray_of_first_after_deleting_one_element.cpp
+./main
+clang --std=c++2b -lstdc++ -o main ./longest_subarray_of_first_after_deleting_one_element.cpp
+./main
+clang --std=c++2b -lstdc++ -o main ./longest_subarray_of_first_after_deleting_one_element.cpp
+./main
+clang --std=c++2b -lstdc++ -o main ./longest_subarray_of_first_after_deleting_one_element.cpp
+./main
+clang --std=c++2b -lstdc++ -o main ./longest_subarray_of_first_after_deleting_one_element.cpp
+./main
+clang --std=c++2b -lstdc++ -o main ./longest_subarray_of_first_after_deleting_one_element.cpp
+./main
+clang --std=c++2b -lstdc++ -o main ./longest_subarray_of_first_after_deleting_one_element.cpp
+./main
+clang --std=c++2b -lstdc++ -o main ./longest_subarray_of_first_after_deleting_one_element.cpp
+./main
+trans -t ru -f en fringe
+trans -t ru -f en "fringe interest"
+trans -t ru -f en "insufferable"
+trans -t ru -f en "wedge"
+/projects/rust_tries/jabac/
+/projects/rust_tries/jabac
+/projects/rust_tries/jabac
+nvim
+git init
+ls -a
+$nu.plugin-path
+open .config/nushell/plugin.nu
+nvim ~/.config/nushell/config.nu
+help commands | where command_type == "plugin"
+nvim ~/.config/nushell/config.nu
+ls
+/projects/rust_tries/jabac
+../first/
+../rices/
+git status
+../jabac
+~
+nvim ~/.config/nushell/config.nu
+nvim ~/.config/nvim/lua/lazy_setup/plugins.lua
+ps
+cpu
+gitbranch
+branch
+/projects/rust_tries/jabac
+git --help
+git show branch
+git show --help
+git rev-parse --addrev-ref HEAD
+git branch -a
+git branch --help
+git branch 
+"aboa" + "abeme"
+ansi red_bold
+ansi green_bold
+(ansi green_bold) + "aboba"
+(ansi red_bold) + "aboba"
+(ansi yellow_bold) + "aboba"
+..
+git branch -q
+git branch --help
+if (git branch) {"abema"} else {"aboma"}
+if (ok git branch) {"abema"} else {"aboma"}
+ok
+gstat
+git --help
+git branch --help
+git branch
+..
+./rust_tries/
+try { git branch } else { "abeme" }
+try { git branch } catch { "abeme" }
+try (git branch) 
+try --help
+git branch >> /tmp/null
+git branch > /tmp/null
+git branch &> /tmp/null
+git branch |&
+let output = git branch
+output
+$output
+error make
+error make "aboba"
+do { let git branch; "aboba" }
+do { let tmth = git branch; "aboba" }
+try { git branch } catch { "abeme" }
+try { git branch > /tmp/null } catch { "abeme" }
+try { git branch &> /tmp/null } catch { "abeme" }
+git branch &> /tmp/null
+do {git branch &> /tmp/null} | complete
+do {git branch} | complete
+do {git branch} 
+do {git branch out+err> /tmp/null } 
+..
+./rust_tries/
+./jabac
+git switch -c aboba
+git branch | grep "*"
+git branch | grep "\*"
+git branch | grep "*"
+sed --help
+sed -r "\w*" "* aboba"
+sed -r "w*" "* aboba"
+"* aboba" | sed -r "w*"
+"* aboba" | sed -r "[a-z]*"
+"* aboba" | sed -r "a-z*"
+"* aboba" | sed -r "s/.*([a-z]*)\n/1"
+"* aboba" | sed "s/.*([a-z]*)\n/1"
+"* aboba" | sed 's/.*([a-z]*)\n/1'
+awk '1 { print }' Cargo.toml
+awk 'NR>1' Cargo.toml
+nvim ~/.config/nvim/lua/lazy_setup/plugins.lua
+"* aboba\n" | str replace -r '* (.+)\n' '$1'
+"* aboba\n" | str replace -r '* (.+)r' '$1'
+"* aboba\n" | str replace -r '* (.+)' '$1'
+"* aboba\n" | str replace -r '\* (.+)' '$1'
+"* aboba\n" | str replace -r '\* (.+)\r' '$1'
+"* aboba\n" | str replace -r '\* ([a-z])' '$1'
+"* Aboba\n" | str replace -r '\* ([a-z])' '$1'
+"* Aboba\n" | str replace -r '\* ([a-z]|[A-Z])' '$1'
+"* Aboba\n" | str replace -r '\* (w)' '$1'
+"* Abobaa321a\n" | str replace -r '\* (\w)' '$1'
+"* Abobaa321a\n" | str replace -r '\* (\w)\r' '$1'
+"* Abobaa321a\n" | str replace -r '\* (\w)\n' '$1'
+"* Abobaa321a\n" | str replace -r '\* (\w)[\n\r]+' '$1'
+u
+git branch | grep "*" | str replace '\* (\w)[\r\n]' '$1'
+git branch | grep "*" | str replace '* (\w)[\r\n]' '$1'
+git branch | grep "*" | str replace '* (\w)' '$1'
+git branch | grep "*" | str replace '\* (\w)' '$1'
+git branch | grep "*" | str replace '\* ([a-z])' '$1'
+git branch | grep "*" 
+git branch | grep "*" | str replace '\* ([a-z])' '$1asd'
+git branch | grep "*" | str replace '\* ([a-z])' 'asd'
+git branch | grep "*" | str replace '.' 'asd'
+git branch | grep "*" | str replace '.*' 'asd'
+git branch | grep "*" | str replace '*' 'asd'
+git branch | grep "*" | str replace '* \(aboba\)' '$1'
+git branch | grep "*" | str replace '* (aboba)' '$1'
+git branch | grep "*" | str replace '* (\w)' '$1'
+git branch | grep "*" | str replace '* (\w*)' '$1'
+git branch | grep "*" | str replace '* (\w+)' '$1'
+"* aboba\n" | str replace -r '\* ([a-z])' '$1'
+git branch | grep "*" | str replace -r '* (\w*)' '$1'
+git branch | grep "*" | str replace -r '* (\w+)' '$1'
+git branch | grep "*" | str replace -r '\* (\w+)' '$1'
+ibus-setup 
+uname
+username
+user
+users 
+users --help
+..
+git clone https://codeberg.org/mohmagen/jabac.git jaba_
+cp -r jaba_/.git/* jabac/.git/
+./jabac
+git status
+..
+rm -rf jaba_
+ls -a
+..
+~
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+sh
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nvim ~/.config/nushell/config.nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+/projects/rust_tries/jabac
+..
+./jabac
+git branch err> /tmp/null
+..
+./jabac
+..
+./jabac
+..
+./rices/
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+git switch -c bad_try
+git status
+git ad .
+git add .
+git commit 
+git push origing bad_try 
+git push origin bad_try 
+git switch master
+rm -rf stc/*
+git status
+exa ./src
+rm -rf src/*
+ls
+nvim ~/.config/nushell/config.nu
+ls src/
+git status
+git add .
+trans -t en -f ru "руский"
+trans -t en -f ru "ветхость"
+git commit
+trans -t gr -f ru "ветхость"
+trans -t en -f ru "ветхость"
+trans -t en -f gr "ветхость"
+trans -t gr -f ru "ветхость"
+trans -t gr -f ru "decrepitude"
+trans -T
+trans -T | find greek
+trans -T | find Greek
+trans -T 
+trans --help
+trans -list-languages-english
+trans -list-languages-english | grep Greek
+trans -T
+trans -t el -f ru "ветхость"
+nvim 
+/projects/rust_tries/jabac
+bacon
+figlet --help
+figlet -f "ASCII\ Shadow" "JABA"
+figlet -f "ASCII Shadow" "JABA"
+figlet -f "ANSI Shadow" "JABA"
+sdfa
+:q
+exit
+figlet -f "ANSI Shadow" "JABA"
+nvim
+sudo mkdir /tmp/nvim.mark
+sudo reboot
+cava
+bacon clippy
+nu
+/projects/rust_tries/jabac
+nvim
+nvim
+/projects/rust_tries/jabac
+figlet -f "ANSI Shadow" "JABA"
+figlet -f "ANSI Shadow" "JABA" | wl-copy
+open norg/index.norg
+sudo reboot
+xbps-query -Rs qutebrowser
+sudo xbps-install -Su qutebrowser
+sudo reboot
+nvim
+sudo reboot
+/projects/university/math/exam12012024/
+nvim Downloads/
+cp Downloads/message.txt /projects/c_cpp_study/anton4.cpp
+/projects/c_cpp_study/
+clang -o main anton4.cpp -lstdc++
+./main
+trans -t ru -f en "subscript"
+clang -o main anton4.cpp -lstdc++
+cava
+/projects/rust_tries/
+cargo new neorg_parser
+./neorg_parser/
+nvim
+..
+rm -rf neorg_parser/
+cargo new neorg_converter
+./neorg_converter/
+../rust_tries/neorg_converter/
+/projects/rust_tries/neorg_converter/
+nvim
+./creates/
+cargo new --lib neorg
+../jabac
+../jabac
+..
+../jabac
+/projects/c_cpp_study/
+mkdir jaba_game
+./jaba_game/
+/projects/c_cpp_study/jaba_game/
+tran -t ru -f ch "我喜欢本图书"
+trans -t ru -f ch "我喜欢本图书"
+trans -t ru -f zh "我喜欢本图书"
+trans -t ru -f zh "我喜欢这个图书"
+trans -t ru -f zh "仓库图书"
+trans -t ru -f zh "本仓库图书"
+xbps-query -Rs catch2
+sudo xbps-install -Su catch2
+/projects/c_cpp_study/jaba_game/
+ls
+/projects/c_cpp_study/jaba_game/
+cmake . 
+cmake .
+cmake test
+ninja build
+ls -la
+cmake . -GNinja
+rm -rf Makefile
+rm -rf CMakeFiles/
+rm -rf CMakeCache.txt
+rm -rf cmake_install.cmake
+cmake . -GNinja
+ninja build
+ninja test
+cmake . -GNinja
+ninja test
+cmake .
+cmake . -GNinja
+ninja test
+cmake . -GNinja
+sudo xbps-install -Su gtest
+cmake . -GNinja
+xbps-query -Rs gtest
+sudo xbps-install -Su gtest-devel
+cmake . -GNinja
+ninja test
+ls
+nvim CMakeLists.txt
+sudo chmod +x ./clear.sh
+./clear.sh
+ls
+cmake . -GNinja
+ninja 
+ls -a
+ls Testing/
+ls Testing/Temporary/
+ninja test
+nvim
+-:q
+git init
+ls
+git init
+ls
+git branch
+git init
+rm -rf .git/
+git init
+git add .
+git commit
+nivm
+./clear.sh
+cmake . -GNinja
+sudo reboot
+xbps-query -Rs telegram
+sudo xbps-install -Su telegram-descktop telegram-tg
+xbps-query -Rs telegram
+sudo xbps-install -Su telegram-descktop telegram-tg
+sudo xbps-install -Su telegram-desktop telegram-tg
+telegram-tg
+telegram-desktop --version
+telegram-desktop -v
+locale -a
+sudo nvim /etc/default/libc-locales
+sudo nvim /etc/locale.conf
+locale -a
+xlocate -S
+sudo xbps-install -Su xtools
+xlocate -S
+xlocate xlocate
+locale -a
+sudo reboot
+locale -a
+sudo xbps-reconfigure -a
+sudo xbps-reconfigure -ad
+locale -a
+sudo xbps-reconfigure -f glibc-locales
+locale -a
+sudo reboot
+locale -a
+telegram-desktop -v
+xbps-query -s teleg
+sudo xbps-remove -R telegram-desktop telegram-tg
+flatpak install org.telegram.desktop
+flatpak run org.telegram.desktop
+flatpak remove org.telegram.desktop
+sudo xbps-install -Su telegram-desktop
+neofetch
+/projects/c_cpp_study/jaba_game/
+cmake . -GNinja
+ninja test
+cmake . -GNinja
+ninja client
+ctest
+git submodule --init --recursive https://github.com/google/googletest external/googletest
+git submodule add --init --recursive https://github.com/google/googletest external/googletest
+git submodule add https://github.com/google/googletest external/googletest
+nvim
+./clear.sh
+cmake . -GNinja
+nvim
+cmake . -GNinja
+make
+nvim
+cmake . -GNinja
+nvim src/jaba.cpp
+cmake . -GNinja
+nvim
+cmake . -GNinja
+ninja jaba
+GTEST_COLOR=1 ctest
+GTEST_COLOR=1 ctest build
+nvim CMakeLists.txt
+cmake --build build -j 12
+mkdir build
+cmake --build build -j 12
+cmake --build build 
+cmake --build build -j 12 .
+cmake . --build build -j 12 
+cmake . --build build 
+cmake . 
+ninja jaba
+ninja jaba --rebuild
+ninja jaba 
+GTEST_COLOR=1 ctest --test-dir . --output-on-failure -j12
+nvim
+cmake . -GNinja
+ninja jaba
+GTEST_COLOR=1 ctest --test-dir . --output-on-failure -j12
+nvim
+GTEST_COLOR=1 ctest --test-dir . --output-on-failure -j12
+cmake . -GNinja
+GTEST_COLOR=1 ctest --test-dir . --output-on-failure -j12
+nvim
+cmake . -GNinja
+GTEST_COLOR=1 ctest --test-dir . --output-on-failure -j12
+nvim
+ninja jaba
+GTEST_COLOR=1 ctest --test-dir . --output-on-failure -j12
+nvim
+GTEST_COLOR=1 ctest --test-dir . --output-on-failure -j12
+ninja jaba
+GTEST_COLOR=1 ctest --test-dir . --output-on-failure -j12
+nvim
+cmake . -GNinja
+cmake . -GNinja --rebuild
+cmake . -GNinja --force
+cmake . -GNinja 
+ninja jaba
+ninja jaba --rebuild
+nvim CMakeLists.txt
+cmake . -GNinja 
+/projects/c_cpp_study/jaba_game/
+cmake . -GNinja 
+nvim
+cmake . -GNinja 
+ninja jaba
+GTEST_COLOR=1 ctest --test-dir . --output-on-failure -j12
+/projects/university/math/exam12012024/
+nvim 
+/projects/c_cpp_study/jaba_game/
+/projects/c_cpp_study/jaba_game/
+nvim main.cpp
+/projects/c_cpp_study/
+clang -o main main.cpp -g -lstdc++
+kk
+clang -o main main.cpp -g -lstdc++
+./main
+cmake . -GNinja 
+ninja sockets
+cmake . -GNinja 
+ninja sockets_lib
+cmake . -GNinja 
+ninja sockets_lib
+mkdir target
+rm -rf target/
+cmake . -GNinja 
+ninja sockets_lib
+ls target/lib/
+ls target/lib/sockets_lib/
+cmake . -GNinja 
+ls target/lib/sockets_lib/
+rm -rf target/
+cmake . -GNinja 
+ninja sockets_lib
+ls lib/
+ls -a
+ninja sockets_lib
+cmake . -GNinja 
+ninja sockets_lib
+rm -rf lib/
+ninja sockets_lib
+rm -rf lib/
+rm -rf bin/
+ninja sockets_lib
+ninja
+ls -a
+ls -a lib/
+/projects/rust_tries/rices/
+nvim
+/projects/university/
+ls
+mkdir phisics
+./phisics/
+mkdir exam16012024
+./exam16012024/
+nvim theory.typ
+sudo reboot
+xbps-query floor
+xbps-query floorp
+.local/pkgs/void-packages/
+./void-src floorp
+ls
+ls -a
+./xbps-src 
+./xbps-src pkg floorp
+sudo xbps-install -Su floorp
+sudo xbps-install -Su one.ablaze.floorp
+flatpak install one.ablaze.floorp
+flatpak run one.ablaze.floorp
+.local/pkgs/
+git clone https://github.com/Frost-Phoenix/2048-cli
+./2048-cli/
+make run
+make
+make 
+xbps-query asan
+xbps-query address
+xbps-query -Rs asan
+xbps-query -Rs address
+xbps-query -Rs google
+xbps-query -Rs google | grep lib
+xbps-query -Rs libasan
+xbps-query -Rs asan
+nvim
+make
+btop
+/projects/c_cpp_study/jaba_game/
+cmake . -GNinja 
+nvim
+ninja
+ninja sockets_lib
+trans -t ru -f en "hulk"
+nvim
+ninja sockets_lib
+nvim
+cmake . -GNinja 
+ninja sockets_lib
+cmake . -GNinja 
+ninja sockets_lib
+nvim ../todo_app/socket/
+cmake . -GNinja 
+rm -rf CMakeCache.txt
+cmake . -GNinja 
+ls -a
+nvim ../todo_app/socket/
+cmake . -GNinja 
+ninja sockets_lib
+/projects/c_cpp_study/todo_app/
+./socket/
+nvim
+..
+ninja sockets_lib
+ls -a
+open compile_commands.json
+nvim
+nvim
+cava
+.local/pkgs/
+ls -a
+./TLauncher-2.895/
+ls -a
+java TLauncher-2.895.jar
+nvim README-EN.txt
+java --help
+java -V
+java --version
+xbps-query -Rs java
+xbps-query -Rs openjdk
+sudo xbps-install -Su openjdk8-jre
+xbps-alternatives -l 
+xbps-alternatives --help
+xbps-alternatives -s java openjdk8-jre
+sudo xbps-alternatives -s java openjdk8-jre
+java --version
+java --help
+xbps-alternatives -l
+sudo xbps-alternatives -s openjdk8-jre
+java --version
+java TLauncher-2.895.jar
+nvim README-EN.txt
+java --help
+java --jar TLauncher-2.895.jar
+java --help
+java -jar TLauncher-2.895.jar
+pwd
+ninja sockets_lib
+.local/pkgs/TLauncher-2.895/
+java -jar TLauncher-2.895.jar
+/projects/c_cpp_study/jaba_game/
+$env | table -e
+nvim .config/nushell/env.nu
+nvim .config/fish/config.fish
+btop
+nvim .config/nushell/env.nu
+trans -t ru -f en "domain"
+nvim ../todo_app/socket/
+/projects/c_cpp_study/jaba_game
+nvim
+nvim ../todo_app/socket/
+nvim
+xbps-query -Rs lazygit
+sudo xbps-install -Su lazygit
+lazygit 
+lazygit 
+../../pythukhon/
+ls -a
+ls bin/
+/projects/pythukhon/
+pypr install virtualenv
+xbps-query -Rs python
+xbps-query -s python
+xbps-query -Rs virtualenv
+sudo xbps-install -Su python3-virtualenv python3-virtualenv-clone virtualenvwrapper
+pip list
+/projects/pythukhon/
+mkdir environments
+./environments/
+ls 
+virtualenv project1_env
+./project1_env/
+source bin/activate.nu
+overlay use bin/activate.nu
+ls 
+which pip
+pip list
+pip install --upgrade pip
+deactivate 
+~/.config/nushell/
+nvim env.nu
+nvim left_promt.nu
+nvim
+nvim left_promt.nu
+nvim ~/.config/nvim/lua/plugins/lsp.lua
+nvim left_promt.nu
+nvim ~/.config/nvim/lua/settings.lua
+nvim left_promt.nu
+nvim ~/.config/nvim/lua/lazy_setup/plugins.lua
+nvim left_promt.nu
+nvim ~/.config/nvim/lua/lazy_setup/plugins.lua
+nvim left_promt.nu
+nvim ~/.config/nvim/lua/plugins/treesitter.lua
+~/.config/nvim/
+git status
+git add .
+git commit
+../nushell/
+nvim left_promt.nu
+nvim ~/.config/nvim/lua/plugins/lsp.lua
+nvim install.nu
+./install.nu
+chmod +x ./install.nu
+./install.nu
+nu ./install.nu
+nvim install.nu
+nvim 
+nvim left_prompt.nu
+nvim env.nu
+nu
+./environments/
+overlay use bin/activate.nu
+nvim env.nu
+nvim .config/nushell/env.nu
+/projects/pythukhon/environments/
+mkdir lyagushka_ai
+./lyagushka_ai/
+..
+rm -rf lyagushka_ai/
+virtualenv lyagushka_ai
+./lyagushka_ai/
+overlay use bin/activate.nu
+pip list
+which pip
+/projects/pythukhon/environments/lyagushka_ai/
+gcc -o main main.c
+./main
+gcc -o main main.c
+./main
+gcc -o main main.c
+./main
+nvim main.c
+trans -t ru -f en "attention"
+trans -t ru -f en "query"
+trans -t ru -f en "compatibility"
+xbps-query -Rs lapce
+sudo xbps-install -Su lapce
+bat .config/kitty/kitty.conf
+gnvim
+xbps-query -Rs gneovim
+xbps-query -Rs gnvim
+cp Downloads/input.txt /projects/pythukhon/environments/lyagushka_ai/
+/projects/pythukhon/environments/lyagushka_ai/
+ls
+open input.txt
+open input.txt | table
+nvim first.py
+nvim 
+nu
+nvim open.py
+overlay use bin/activate.nu
+/projects/pythukhon/environments/lyagushka_ai/
+overlay use bin/activate.nu
+python open.py
+pip install torch
+which python
+python --version
+virtualenv --help
+pip install python3.11
+pip install python3.10
+pip install python==3.10
+pip install python
+pip install numpy
+pip install tf-nightly
+pip install torch2
+pip install torch-nightly
+pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu118
+nvim open.py
+python open.py
+python 
+nvim open.py
+nvim prepare_data.py
+python chanks
+python chanks.py
+nvim chanks.py
+git init
+add .
+git add .
+git commit
+git status
+python chanks.py
+git status
+ls -a
+nvim .gitignore
+git status
+git add .
+python chanks.py
+nvim
+python bigram_language_module.py
+python bigram.py
+python v2.py
+xbps-query -s py
+xbps-query -s python
+xbps-query -s p
+xbps-query -s p | less
+nvim ~/.config/kitty/kitty.conf
+xbps-query -Rs cool-retro-term
+xbps-install -Su cool-retro-term
+sudo xbps-install -Su cool-retro-term
+sudo xbps-install -u xbps
+sudo xbps-install -Su 
+sudo xbps-install -Su cool-retro-term
+ls -a
+nvm
+nvim
+nvim -c "Neorg workspaces languages"
+btop
+/projects/pythukhon/environments/lyagushka_ai/
+overlay use bin/activate.nu
+/projects/pythukhon/environments/lyagushka_ai/
+overlay use bin/activate.nu
+trans -t ru -f en "module"
+trans -t ru -f en "model"
+bat .config/kitty/kitty.conf
+python
+python gpt.py
+trans -t ru -f en "logits"
+btop
+sudo reboot
+trans -t ru -f en "glad"
+trans -t ch -f en "glad"
+trans -t zh -f en "glad"
+trans -t en -f zh "高兴的"
+trans -t en -f zh "我高兴认识你了"
+trans -t en -f zh "我高兴认识你"
+trans -t zh -f en "learn"
+trans -t en -f zh "学习"
+trans -t en -f zh "我学习称是语言"
+trans -t en -f zh "我学习程式语言"
+trans -t en -f zh "我学习程式语言Rust"
+trans -t zh -f en "i've learnd programming language Rust"
+trans -t en -f zh "我学习了程式语言Rust"
+trans -t en -f zh "了"
+trans -t en -f zh "我学习了新的程式语言"
+trans -t en -f zh "我学习了新的新的程式语言"
+trans -t en -f zh "语言"
+trans -t en -f zh "我高兴学习了新的新的程式语言"
+trans -t en -f zh "会"
+trans -t en -f zh "太初有道,道与神同在,道就是神."
+trans -t en -f zh "太初"
+trans -t en -f zh "有"
+trans -t en -f zh "有蟾蜍"
+trans -t zh -f en "one"
+trans -t en -f zh "有一蟾蜍"
+nvim ~/.config/nushell/left_prompt.nu
+trans -t zh -f en "one"
+trans -t en -f zh "有一蟾蜍"
+trans -t en -f zh "道"
+trans -t en -f zh "与神同在"
+trans -t en -f zh "与"
+trans -t en -f zh "神"
+trans -t en -f zh "神同"
+trans -t en -f zh "在"
+trans -t en -f zh "神同"
+trans -t en -f zh "神"
+trans -t en -f zh "同"
+trans -t en -f zh "神"
+trans -t en -f zh " 太初有道，道与　神同在，道就是　神"
+trans -t en -f zh "学习"
+trans -t en -f zh "我学习了新的程式语言"
+trans -t en -f zh "我学习了新的程式语言Rust"
+trans -t en -f zh "我学习了新的程式语言《Rust》"
+trans -t en -f zh "有一蟾蜍"
+trans -t en -f zh "有蟾蜍"
+trans -t en -f zh "有一蟾蜍"
+trans -t en -f zh "我有蟾蜍"
+trans -t zh -f en "1 2 3 4 5 6 7 8 9 10"
+trans -t zh -f en "one two"
+trans -t en -f zh "我有二蟾蜍"
+trans -t en -f zh "我有了二蟾蜍"
+trans -t en -f zh "与"
+trans -t en -f zh "神同"
+trans -t en -f zh "同在"
+trans -t en -f zh "就是"
+trans -t en -f zh "就"
+trans -t en -f zh "是"
+trans -t en -f zh "就是"
+trans -t zh -f en "he"
+trans -t en -f zh "这"
+trans -t zh -f en "green"
+trans -t en -f zh "路"
+trans -t en -f zh "绿"
+trans -t en -f zh "这蟾蜍是绿"
+nu
+ping google.com
+sudo reboot
+trans -t en -f zh "只"
+trans -t en -f zh "只白"
+trans -t en -f zh "一只"
+trans -t en -f zh "一只白猫"
+trans -t en -f zh "一只猫"
+trans -t en -f zh "天"
+trans -t en -f zh "白天"
+trans -t en -f zh "忙"
+trans -t en -f zh "很忙"
+trans -t en -f zh "快"
+trans -t en -f zh "块"
+trans -t en -f zh "个"
+trans -t en -f zh "半"
+trans -t en -f zh "我等了半天"
+trans -t en -f zh "我等半天了"
+trans -t en -f zh "可以"
+trans -t en -f zh "可"
+trans -t en -f zh "以"
+trans -t zh -f en "eat"
+trans -t en -f zh "我可以吃西瓜"
+trans -t en -f zh "我可以吃一只西瓜"
+trans -t en -f zh "我要吃一只西瓜"
+trans -t zh -f en "two"
+trans -t en -f zh "我认识二百个蟾蜍"
+trans -t zh -f en "meet"
+trans -t en -f zh "我见面二百个蟾蜍"
+trans -t en -f zh "我见面了二百个蟾蜍"
+trans -t en -f zh "我喜欢个猫"
+trans -t en -f zh "我喜欢猫"
+trans -t zh -f en "i like cats"
+trans -t en -f zh "男人"
+trans -t en -f zh "二支铅笔"
+trans -t en -f zh "两支铅笔"
+trans -t en -f zh "两"
+xbps-query -Rs sterm
+xbps-query -Rs stow
+sudo xbps-install -Su stow
+/projects
+mkdir dotfiles
+./dotfiles/
+git init
+nvim README.txt
+git add .
+git status
+git commit
+ls -a
+treee
+tree
+ls -a
+ls -Ta
+ls -ta
+ls -a --tree
+ls -a
+mkdir hypr_rose_pine
+./hypr_rose_pine/
+".git" | write .stow-local-ignore  
+".git" | save .stow-local-ignore 
+open .stow-local-ignore
+"scripts" | append .stow-local-ignore
+"scripts" | save -a .stow-local-ignore
+open .stow-local-ignore
+nvim .stow-local-ignore
+open .stow-local-ignore
+rm -rf .stow-local-ignore
+..
+rm -rf hypr_rose_pine/
+diff
+ls -a
+mkdir .config
+cp -r ~/.cofnig/kitty .config/kitty
+cp -r ~/.cofnig/kitty/ .config/kitty
+cp -r ~/.config/kitty/ .config/kitty
+ls .config
+cp -r ~/.config/nvim .config/
+ls .config
+cp -r ~/.config/hypr/ .config/
+ls ~/.config
+cp -r ~/.config/eww/ .config/
+cp -r ~/.config/zathura/ .config/

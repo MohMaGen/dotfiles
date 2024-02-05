@@ -1,0 +1,18 @@
+# Default
+set default-fg      "#e0def4"
+set default-bg      "rgba(25, 23, 36, 0.6)"
+
+# Status bar
+set statusbar-fg    "#e0def4"
+set statusbar-bg    "rgba(25, 23, 36, 0.6)"
+
+# Input bar
+set inputbar-fg     "#31748f"
+set inputbar-bg     "rgba(25, 23, 36,0.6)"
+
+
+# Recolor
+set recolor                 true
+set recolor-lightcolor      "rgba(25, 23, 36,0.7)"
+set recolor-keephue         true
+set recolor-darkcolor       "#e0def4"
