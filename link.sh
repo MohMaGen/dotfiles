@@ -1,0 +1,1 @@
+stow --target $env.HOME .

@@ -1,7 +1,0 @@
-= My dotfiles
-
-== Update 
-
-```
-$ 
-```
