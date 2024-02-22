@@ -2,7 +2,7 @@
 #
 # version = "0.88.1"
 
-use /home/mark/.config/nushell/left_prompt.nu create_left_prompt
+use /home/jaba/.config/nushell/left_prompt.nu create_left_prompt
 
 def create_right_prompt [] {
     # create a right prompt in magenta with green separators and am/pm underlined
@@ -77,23 +77,29 @@ $env.NU_PLUGIN_DIRS = [
 # To add entries to PATH (on Windows you might use Path), you can use the following pattern:
 # $env.PATH = ($env.PATH | split row (char esep) | prepend '/some/patu
 $env.PATH = [
-    /home/mark/.cabal/bin, 
+    /home/jaba/.cabal/bin, 
     /projects/eww/target, 
     /usr/local/include, 
     /projects/anaconda3/bin, 
-    /home/mark/.local/bin, 
+    /home/jaba/.local/bin, 
     /projects/latexrun, 
     /opt/texlive/2023/bin/x86_64-linux, 
     /var/lib/flatpak/exports/bin, 
-    /home/mark/.cargo/bin, 
-    /home/mark/.cabal/bin, 
+    /home/jaba/.cargo/bin, 
+    /home/jaba/.cabal/bin, 
     /usr/local/sbin, 
     /usr/local/bin, 
     /usr/bin, 
     /usr/sbin,
     /sbin,
     /bin,
-    /home/mark/.ghcup/bin,
-    /home/mark/.ghcup/bin
+    /home/jaba/.ghcup/bin,
+    /home/jaba/.ghcup/bin,
+    /home/jaba/.julia/
 ]
 #
+
+
+$env.XDG_RUNTIME_DIR = $env.HOME ++ "/.xdg_runtime_dir"
+$env.LANG = "en_US.UTF-8"
+$env.MOZ_ENABLE_WAYLAND = 1
